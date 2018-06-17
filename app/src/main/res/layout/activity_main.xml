@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/nome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Nome"
+        android:inputType="textPersonName"
+        android:text="Name"
+        tools:text="Digite seu nome" />
+
+    <EditText
+        android:id="@+id/idade"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="idade"
+        android:inputType="textPersonName"
+        android:text="idade"
+        tools:text="Digite sua idade" />
+
+    <Switch
+        android:id="@+id/casada"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Casada" />
+
+    <Button
+        android:id="@+id/btnadd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Adicionar" />
+
+    <Button
+        android:id="@+id/btnedit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Editar" />
+
+    <Button
+        android:id="@+id/btnrmv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Remover" />
+
+    <Button
+        android:id="@+id/btnreg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ver registros" />
+
+    <Button
+        android:id="@+id/btndel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Remover tabela" />
+
+</LinearLayout>
